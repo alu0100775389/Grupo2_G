@@ -3,20 +3,18 @@
 \catcode`<\active
 \catcode`>\active
 \@nameuse{es@quoting}
-\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
-\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
-\global\let\oldcontentsline\contentsline
-\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
-\global\let\oldnewlabel\newlabel
-\gdef\newlabel#1#2{\newlabelxx{#1}#2}
-\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
-\AtEndDocument{\ifx\hyper@anchor\@undefined
-\let\contentsline\oldcontentsline
-\let\newlabel\oldnewlabel
-\fi}
-\fi}
-\global\let\hyper@last\relax 
-\gdef\HyperFirstAtBeginDocument#1{#1}
+\ifx\hyper@anchor\@undefined
+\global \let \oldcontentsline\contentsline
+\gdef \contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global \let \oldnewlabel\newlabel
+\gdef \newlabel#1#2{\newlabelxx{#1}#2}
+\gdef \newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\let \contentsline\oldcontentsline
+\let \newlabel\oldnewlabel}
+\else
+\global \let \hyper@last\relax 
+\fi
+
 \providecommand*\HyPL@Entry[1]{}
 \HyPL@Entry{0<</S/D>>}
 \select@language{spanish}
@@ -59,22 +57,22 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{chapter:concl}{{4}{9}{Conclusiones\relax }{chapter.4}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice 1}{10}{appendix.Alph1}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice 1}{10}{appendix.A}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{appendix:1}{{A}{10}{Apéndice 1\relax }{appendix.Alph1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}C\IeC {\'o}digo python}{10}{section.Alph1.1}}
-\newlabel{Apendice1:YYY}{{A.1}{10}{Código python\relax }{section.Alph1.1}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}Ap\IeC {\'e}ndice 2}{13}{appendix.Alph2}}
+\newlabel{appendix:1}{{A}{10}{Apéndice 1\relax }{appendix.A}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}C\IeC {\'o}digo python}{10}{section.A.1}}
+\newlabel{Apendice1:YYY}{{A.1}{10}{Código python\relax }{section.A.1}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}Ap\IeC {\'e}ndice 2}{13}{appendix.B}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{appendix:2}{{B}{13}{Apéndice 2\relax }{appendix.Alph2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {B.1}Un poco de Historia sobre integraci\IeC {\'o}n simpson}{13}{section.Alph2.1}}
-\newlabel{Apendice2:label}{{B.1}{13}{Un poco de Historia sobre integración simpson\relax }{section.Alph2.1}{}}
+\newlabel{appendix:2}{{B}{13}{Apéndice 2\relax }{appendix.B}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B.1}Un poco de Historia sobre integraci\IeC {\'o}n simpson}{13}{section.B.1}}
+\newlabel{Apendice2:label}{{B.1}{13}{Un poco de Historia sobre integración simpson\relax }{section.B.1}{}}
 \bibstyle{plain}
 \bibdata{bib/references}
 \citation{*}
-\@writefile{toc}{\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{14}{section.Alph2.1}}
+\@writefile{toc}{\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{14}{section.B.1}}
 \bibcite{label}{1}
 \bibcite{label1}{2}
 \bibcite{label2}{3}

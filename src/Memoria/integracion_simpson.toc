@@ -11,8 +11,8 @@
 \contentsline {section}{\numberline {3.3}Resultados obtenidos}{7}{section.3.3}
 \contentsline {section}{\numberline {3.4}An\IeC {\'a}lisis de los resultados}{8}{section.3.4}
 \contentsline {chapter}{\numberline {4}Conclusiones}{9}{chapter.4}
-\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice 1}{10}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}C\IeC {\'o}digo python}{10}{section.Alph1.1}
-\contentsline {chapter}{\numberline {B}Ap\IeC {\'e}ndice 2}{13}{appendix.Alph2}
-\contentsline {section}{\numberline {B.1}Un poco de Historia sobre integraci\IeC {\'o}n simpson}{13}{section.Alph2.1}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{14}{section.Alph2.1}
+\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice 1}{10}{appendix.A}
+\contentsline {section}{\numberline {A.1}C\IeC {\'o}digo python}{10}{section.A.1}
+\contentsline {chapter}{\numberline {B}Ap\IeC {\'e}ndice 2}{13}{appendix.B}
+\contentsline {section}{\numberline {B.1}Un poco de Historia sobre integraci\IeC {\'o}n simpson}{13}{section.B.1}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{14}{section.B.1}
