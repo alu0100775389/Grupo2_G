@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  17 MAY 2013 19:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.7.26)  17 MAY 2013 19:59
 entering extended mode
  %&-line parsing enabled.
 **integracion_simpson.tex
@@ -446,6 +446,10 @@ LaTeX Info: Redefining \pageref on input line 10.
 \openout3 = `integracion_simpson.out'.
 
 \AtBeginShipoutBox=\box27
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -456,10 +460,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 31.
- [1
+[1
 
-] [1]
-(./integracion_simpson.toc)
+] [1] (./integracion_simpson.toc)
 \tf@toc=\write4
 \openout4 = `integracion_simpson.toc'.
 
@@ -573,10 +576,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  4635 strings out of 495062
  65299 string characters out of 1182644
- 135824 words of memory out of 3000000
+ 135788 words of memory out of 3000000
  7753 multiletter control sequences out of 15000+50000
  10278 words of font info for 36 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,7n,36p,1065b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on integracion_simpson.dvi (18 pages, 31864 bytes).
+Output written on integracion_simpson.dvi (18 pages, 31784 bytes).
