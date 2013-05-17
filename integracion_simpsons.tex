@@ -1,0 +1,101 @@
+\documentclass[spanish,a4paper,11pt]{report}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[dvips]{graphicx}
+\usepackage[dvips]{epsfig}
+%\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage{alltt}
+%\usepackage{templates/algorithm}
+%\usepackage{templates/algorithmic}
+%\usepackage{templates/multirow}
+\begin{document}
+
+\pagestyle{empty}
+\thispagestyle{empty}
+
+
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{0mm}
+\vspace*{\stretch{1}}
+
+\begin{center}
+%\includegraphics[width=0.2\textwidth]{images/logotipo-secundario-ULL.eps}\\[0.25cm]
+\end{center}
+
+\HRule
+\begin{center}
+        {\Huge \bf Integración Simpsons} \\[2.5mm] 
+        {\Huge \Large \[f(x) = \frac{x^3}{1+x^\frac{1}{2}}, x \in [1,2]\]} \\[2.5mm]
+        {\Large Lorena Morales Pérez\\[2mm]
+                Ashneet Kandhpur Singh\\[2mm]
+                Cristina González Marrero}\\[5mm]
+        {\Large \textit{Grupo 2 }} \\[5mm]
+
+
+        {\em Técnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[5mm]
+        Lenguajes y Sistemas Informáticos \\[5mm]
+        Facultad de Matemáticas \\[5mm]
+        
+        Universidad de La Laguna \\
+\end{center}
+\HRule
+\vspace*{\stretch{2}}
+\begin{center}
+  La Laguna, \today 
+\end{center}
+
+
+\newpage
+
+\begin{abstract}
+
+\parindent=1cm Sabemos que una integral definida se define geométricamente como el área bajo la curva f(x) en el intervalo[a,b].
+Desafortunadamente en la mayoría de los casos prácticos es muy difícil hallar una antiderivada de f(x).
+En estos casos el valor de la integraldebe de aproximarse. Existen varias maneras para ello, por modelos ó métodosnuméricos,
+aplicar la regla Trapezoidal o Rectangular con segmentos cada vez más pequeños,o por otro lado, utilizar las Reglas de SIMPSON aplicando polinomios de orden superior
+para conectar los puntos, con la cual se obtiene una estimación más exacta de una integral. Por ejemplo si hay un punto medio extra entre f(a) y f(b),
+entonces se puede conectar los tres puntos con una parábola.
+Dicho de otra manera, para cada aplicación de la regla de SIMPSON serequieren dos subintervalos, a fin de aplicarla n número de veces,
+deberá dividirse el intervalo (a,b) en un número de subintervalos o segmentos. Cada subintervalo sucesivo se aproxima por un polinomio de segundo grado(parábola)
+y se integra de tal manera que la suma de las áreas de cada segmentode la parábola sea la aproximación a la integración deseada.
+
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+MOTIVACIÓN Y OBJETIVOS
+
+GENERAL
+
+Resolver el problema de cálculo del área bajo la curva entre dos límitesconocidos, dividiendo en N sub áreas para calcular su valor, asumiendo cada subárea como un pequeño arco de parábola.
+ 
+Comprender las bases conceptuales de la integración aproximada 
+Comprender los rasgos generales de la integración aproximada utilizandoel método de Simpson 
+Comprender la aproximación del error por truncamiento de la integraciónaproximada utilizando el método de Simpson, frente al valor exacto 
+Resolver problemas de integración numérica y apreciar su aplicación enla solución de problemas de ingeniería, utilizando el método de Simpson.
+
+ESPECÍFICOS
+
+ 
+Conocer la interpretación geométrica de la integral definida
+Reconocer que el método de Simpson representa, geométricamente, el áreabajo una función polinomial de segundo orden (Cuadrática o Parabólica).
+Deducir la fórmula de Simpson a partir de la interpretación geométrica de laintegral definida.
+Acotar el error cometido en la integración numérica por el método deSimpson.
+Explicar la obtención de fórmulas más precisas para calcular,numéricamente, integrales definidas.
+Aplicar el método de Simpson, para calcular numéricamente, lasaproximaciones de algunas integrales definidas.
+
+
+
+
+
+
+
+
+\end{document}
