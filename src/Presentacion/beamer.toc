@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{8}{0}{1}
+\beamer@sectionintoc {2}{Motivaci\IeC {\'o}n y objetivos}{9}{0}{2}
+\beamer@sectionintoc {3}{Fundamentos te\IeC {\'o}ricos}{10}{0}{3}
+\beamer@sectionintoc {4}{Procedimientos experimentales}{12}{0}{4}
+\beamer@sectionintoc {5}{Resultados obtenidos}{13}{0}{5}
+\beamer@sectionintoc {6}{Conclusiones}{16}{0}{6}

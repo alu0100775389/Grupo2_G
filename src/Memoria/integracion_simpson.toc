@@ -1,0 +1,18 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Motivaci\IeC {\'o}n y objetivos}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Objetivo General}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objetivo Espec\IeC {\'\i }fico}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Fundamentos Te\IeC {\'o}ricos}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Antecedentes Te\IeC {\'o}ricos}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Antecedentes Pr\IeC {\'a}cticos}{4}{section.2.2}
+\contentsline {chapter}{\numberline {3}Procedimiento experimental}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Descripci\IeC {\'o}n de los experimentos}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Descripci\IeC {\'o}n del material}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}Resultados obtenidos}{7}{section.3.3}
+\contentsline {section}{\numberline {3.4}An\IeC {\'a}lisis de los resultados}{8}{section.3.4}
+\contentsline {chapter}{\numberline {4}Conclusiones}{9}{chapter.4}
+\contentsline {chapter}{\numberline {A}Ap\IeC {\'e}ndice 1}{10}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}C\IeC {\'o}digo python}{10}{section.Alph1.1}
+\contentsline {chapter}{\numberline {B}Ap\IeC {\'e}ndice 2}{13}{appendix.Alph2}
+\contentsline {section}{\numberline {B.1}Un poco de Historia sobre integraci\IeC {\'o}n simpson}{13}{section.Alph2.1}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{14}{section.Alph2.1}
